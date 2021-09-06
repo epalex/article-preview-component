@@ -9,8 +9,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: 
-- Live Site URL:
+- Solution URL: https://github.com/epalex/article-preview-component 
+- Live Site URL: https://epalex.github.io/article-preview-component/
 
 ## Built with
 
