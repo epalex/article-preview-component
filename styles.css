@@ -57,6 +57,10 @@ article h2 {
     border-radius: 50%;
 }
 
+.share-pop {
+    display: none;
+}
+
 .share {
     width: 32px;
     height: 32px;
@@ -117,4 +121,62 @@ footer {
     font-weight: 500;
     color: darkgrey;
     margin-bottom: 16px;
+}
+
+
+
+@media screen and (min-width: 992px) {
+
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        margin: unset;
+        width: unset;
+        display: flex;
+    }
+
+    .drawers {
+        width: 285px;
+        height: 100%;
+        border-radius: 10px 0 0 10px;
+    }
+
+    article {
+        width: unset;
+        margin: unset;
+        padding: 32px 40px;
+        max-width: 450px;
+    }
+
+    article h2 {
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.25px;
+    }
+
+    .tips {
+        margin-bottom: 20px;
+        max-width: 365px;
+    }
+
+    .name-and-date {
+        margin-left: -35%;
+    }
+
+    .share:hover {
+        background-color: yellow;
+    }
+
+    footer {
+        margin-bottom: unset;
+        margin-top: 16px;
+    }
+
+
 }
